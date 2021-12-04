@@ -54,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         recyclerView = findViewById(R.id.recyclerView);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        LinearLayoutManager layoutManager = new LinearLayoutManager
+                (this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
 
         adapter = new MovieAdapter();
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         println("요청 보냄.");
     }
     public void println(String data) {
-        Log.d("Mainctivity", data);
+        Log.d("MainActivity", data);
     }
     public void processResponse(String response)
     {

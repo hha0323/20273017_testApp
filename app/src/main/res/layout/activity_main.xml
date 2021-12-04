@@ -11,7 +11,7 @@
         android:id="@+id/xeditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=7281d3ae621158e75b9cf08eb2238b58&amp;targetDt=20211001"
+        android:text="https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=7281d3ae621158e75b9cf08eb2238b58&#38;targetDt=20211001"
         android:hint="사이트 주소 입력"/>
 
     <Button
