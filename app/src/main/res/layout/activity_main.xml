@@ -18,7 +18,8 @@
         android:id="@+id/xbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="요청하기" />
+        android:text="요청하기"
+        app:backgroundTint="#D69999" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
