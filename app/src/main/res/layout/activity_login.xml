@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -84,6 +85,13 @@
                 app:backgroundTint="#D69999" />
 
             <Button
+                android:id="@+id/button2"
+                android:layout_width="220dp"
+                android:layout_height="36dp"
+                android:text="회원가입"
+                app:backgroundTint="#BD6D6D" />
+
+            <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="12dp"
@@ -91,5 +99,11 @@
         </LinearLayout>
 
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        app:backgroundTint="#FFCACA" />
 
 </RelativeLayout>
