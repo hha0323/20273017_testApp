@@ -46,6 +46,7 @@
                     android:id="@+id/usernameInput"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:layout_alignBaseline="@id/usernameLabel"
                     android:hint="아이디" />
             </LinearLayout>
@@ -85,13 +86,6 @@
                 app:backgroundTint="#D69999" />
 
             <Button
-                android:id="@+id/button2"
-                android:layout_width="220dp"
-                android:layout_height="36dp"
-                android:text="회원가입"
-                app:backgroundTint="#BD6D6D" />
-
-            <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="12dp"
@@ -105,5 +99,15 @@
         android:layout_width="match_parent"
         android:layout_height="27dp"
         app:backgroundTint="#FFCACA" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="220dp"
+        android:text="LOGIN"
+        android:textColor="#805858"
+        android:textSize="20dp" />
 
 </RelativeLayout>
